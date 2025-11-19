@@ -1,0 +1,121 @@
+## this is stander container used only in c++
+
+⭐ STL Containers
+
+(Full form: Standard Template Library Containers)
+
+These are ready-made data structures provided by C++.
+
+✅ Main Types of C++ STL Containers
+
+    1️⃣ Sequence Containers
+
+    Store data in a linear sequence.
+
+        vector
+
+        array
+
+        deque
+
+        list
+
+        forward_list
+
+    2️⃣ Associative Containers
+
+    Automatically arranged (sorted or unique keys).
+
+        set
+
+        multiset
+
+        map
+
+        multimap
+
+    3️⃣ Unordered Containers
+
+    Use hash tables (faster for searching).
+
+        unordered_set
+
+        unordered_multiset
+
+        unordered_map
+
+        unordered_multimap
+
+    4️⃣ Container Adaptors
+
+        Built on top of other containers.
+
+        stack
+
+        queue
+
+        priority_queue
+
+
+
+
+## python Standard container
+
+C++ STL Container       Python Equivalent	                                Notes
+vector	                list	                                            Most similar (dynamic array)
+array	                list / array module	                                Python list is more flexible
+deque	                collections.deque	                                Exactly same behavior
+stack	                list or deque	                                    Use append() + pop()
+queue	                queue.Queue	                                        Thread-safe queue
+priority_queue	        heapq	                                            Min-heap implementation
+set	                    set	                                                Same concept
+unordered_set	        set	                                                Python set is always hash-based
+map	                    dict                                                Key-value pairs
+unordered_map	        dict	                                            Python dict is hash table
+
+
+⭐ Important
+
+Python does not use STL because Python is a different language.
+
+Instead, Python has:
+
+    ✔ Built-in Data Types
+
+    list
+
+    tuple
+
+    set
+
+    dict
+
+    ✔ Special Containers (collections module)
+
+    deque
+
+    Counter
+
+    defaultdict
+
+    OrderedDict
+
+    namedtuple
+
+⭐ Example: Python list works like C++ vector
+    C++:
+    vector<int> v = {1, 2, 3};
+    v.push_back(4);
+
+    Python:
+    v = [1, 2, 3]
+    v.append(4)
+
+    ⭐ Example: Python dict works like C++ unordered_map
+    C++:
+    unordered_map<string, int> mp;
+    mp["a"] = 10;
+
+    Python:
+    mp = {}
+    mp["a"] = 10
